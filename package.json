@@ -1,0 +1,25 @@
+{
+  "name": "kendo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "light-server -s . -p 7000",
+    "webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "light-server": "^2.6.1",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "systemjs": "^0.21.4",
+    "@progress/kendo-ui": "^2019.1.320",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "jquery": "^3.3.1",
+    "webpack": "^3.12.0"
+  }
+}

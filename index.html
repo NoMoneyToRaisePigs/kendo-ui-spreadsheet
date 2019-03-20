@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Promise Practice</title>
+    <meta charset="UTF-8">
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
+    <link rel="stylesheet" href="./node_modules/@progress/kendo-ui/css/web/kendo.common.css" />
+    <link rel="stylesheet" href="./node_modules/@progress/kendo-ui/css/web/kendo.blueopal.css" />
+  </head>
+  <body>
+      test
+      <div id="spreadsheet"></div>
+  </body>
+  <!-- <script src="build/main.bundle.js"></script> -->
+  <script src="node_modules\systemjs\dist\system.js"></script>
+  <script>
+ System.config({
+   baseURL: './',
+   packages: {
+            "./":{
+                 defaultExtension: 'js'
+            }
+        }
+  });
+    System.import('index.js');
+  </script>
+</html>
